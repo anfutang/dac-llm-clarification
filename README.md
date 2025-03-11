@@ -5,7 +5,7 @@ pip install -r requirements.txt
 python3 test.py
 ```
 
-### Extracted subset of documentsof TREC Web Track 2009-2012 (Qulac)
+### Extracted document subset of TREC Web Track 2009-2012 (Qulac)
 - Each index corresponds to an instance of (query, facet, top_docs).
 - top_docs are retrieved using the facet (retrieve+rerank); each top_doc is a (text, reranking score) tuple. 
 ···
