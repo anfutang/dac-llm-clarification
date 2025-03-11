@@ -1,11 +1,11 @@
-##### Using LLMs for clarification generation
+### Use LLMs for clarification generation
 Create a conda environment and run
 ```
 pip install -r requirements.txt
 python3 test.py
 ```
 
-##### Top-50 relevant documents of Qulac
+### Top-50 relevant documents of Qulac
 Each index corresponds to an instance of (query, facet, top_docs); top_docs are retrieved using the facet (retrieve+rerank); each top_doc is a (text, reranking score) tuple 
 ···
 {0:{'query': "Find information on President Barack Obama's family history, including genealogy, national origins, places and dates of birth, etc.",
